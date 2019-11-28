@@ -8,21 +8,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">    
       
       
-      
+
+
+
+
+
+
 <style>
 
 
+
+
           @media only screen and (max-width: 600px) {
+            
+.hover:hover {
+  background-color: #ffaa5a;
+  font-size: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  
+  box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
+}            
+            
+            
+            
 h1 {font-size: 25px;}
 h2 {font-size: 20px;}             
 body {font-size: 10px;}
-.pic {width: 94%;}
+.a {width: 94%;}
 #box2 {width: 100%;}            
 #picandbox2 {
   display: flex;
   flex-wrap: wrap;}
 
-
+        
+            
+.pic {
+    padding-bottom: 70%;
+  background-image: url("https://i.postimg.cc/RZnN5cp5/Morten-Vestergaard-Ivan-Boll-hi-res02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  }
+            
+            
+            
 
 #Facebook {
   position: absolute;
@@ -75,16 +107,39 @@ top: 284px;
 
 @media only screen and (min-width: 600px)
 {
+ .hover:hover {
+  background-color: #ffaa5a;
+  font-size: 22px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+  box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 
+} 
+  
+  
+  
+  
 body {font-size: 20px;}
 h1 {font-size: 60px;}
 h2 {font-size: 2.5em;}
-.pic {width: 50%;
-  height: auto;}
+.a {width: 50%;
+  margin-bottom: 0px;}
+.pic {
+    padding-bottom: 71%;
+  background-image: url("https://i.postimg.cc/RZnN5cp5/Morten-Vestergaard-Ivan-Boll-hi-res02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  }
+  
+  
 #contact {
 
   font-size: 40px;
    }
- #box2 {width: 50%; height: auto;} 
+ #box2 {padding-bottom: 5.45%;} 
 
  #Facebook {
   position: absolute;
@@ -125,26 +180,18 @@ h2 {font-size: 2.5em;}
   
 #Ivan {
   position: absolute;
-  margin-left: 15px;
+  margin-left: 25px;
  
   z-index: 2;
   color: #fff487;
 font-size: 10px;
-top: 660px;  
+top: 690px;  
 }
 #news  {margin-top: 00px; 
 }
 }
 
-.hover:hover {
-  background-color: #ffaa5a;
-  font-size: 22px;
-  padding-left: 5px;
-  padding-right: 5px;
-  
-  box-shadow: 0 5px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  
-}
+
 
 body  {
         background-color: #874830;
@@ -204,11 +251,13 @@ div.parent {
 .pic {
     
   border: 10px solid #fff05a;
+
 }
 
   #picandbox2 {
   display: flex;
   justify-content: space-around;
+    align-items: center;
   z-index: 1;
   height: auto;
   }
@@ -219,10 +268,23 @@ a {
   
   
 
+
+
+
+
+
+
+
+
+
+
+
 </style>
 
 
 
+
+      
     </head>
     <body>
                      
@@ -274,11 +336,13 @@ Bandcamp
   
  <p id="Ivan"> Foto: Ivan Boll</p>
 <div id="picandbox2">     
-       
+ <div class="a">  
+<div class="pic"></div> 
+   
+  </div>
   
-  
-        <img src="https://i.postimg.cc/RZnN5cp5/Morten-Vestergaard-Ivan-Boll-hi-res02.jpg" alt="red heart"  class="pic">
-  
+
+  <div class="a"> 
   <div id="box2">
     <h2 id="news">&#160;News</h2>
     <p style="margin-left: 20px; margin-right: 20px;"> <em>27.11.2019:</em>
@@ -294,6 +358,8 @@ I'm releasing a new 6 song studio EP, titled One Moment, on the 19th of December
   <li class="hover"> <a href="https://www.facebook.com/SubhusetHolstebro/">21.02.2020: SubHuset, Holstebro</a></li>
 </ul>
 </div>
+  </div>
+  
         </div>
      
         
