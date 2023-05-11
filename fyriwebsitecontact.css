@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
+@import url('https://www.1001fonts.com/download/font/blackchancery.regular.ttf');
+
+/* reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* set background color and font family */
+body {
+  background-color: #ebd9b7;
+  font-family: 'BlackChancery', serif;  
+}
+
+
+.calendar {
+font-family: 'BlackChancery', serif;  
+}
+
+
+/* style header */
+header {
+  height: 550px;
+margin: 0;
+
+
+
+/*
+  background: url(https://user-images.githubusercontent.com/58137880/236649265-af65b4ba-4d60-4a78-a333-56ca5f4b8a46.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.header-background {
+  height: 100%;
+  background: url('https://mortenvestergaardmusic.com/hosted-assets/IMG_9055.JPG') no-repeat center center fixed;
+  background-size: contain;
+  background-position: center;
+}
+
+header img {
+  
+header img {
+  max-width: 100%;
+  height: auto;
+}
+  */
+
+}
+
+.center {
+height: 94.6%;
+
+display: flex;
+      justify-content: center;
+
+}
+/*
+#underheader 
+{
+border: 10px solid green ;
+}
+*/
+
+/* This is not header content anymore*/
+.header-content {
+  display: flex;
+  justify-content: center;
+    text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+padding-bottom: 0px;
+ background-color: #f2fa52; 
+ 
+  position: relative;
+top: 0;
+  right: 0;
+  left: 0;
+  width: 100%px;
+  border: 3px solid #73AD21;
+}
+
+.header-content a:hover {
+  color: #733b0e;
+}
+
+
+#about {
+padding-top: 25px;
+}
+
+#fanlist li{
+    display: inline;
+padding-right: 40px;
+padding-left: 40px;
+font-size: 50px;
+color: #000000;
+filter: drop-shadow(0 0 0.75rem green);
+}
+
+.fan {
+text-decoration: none;
+color: #000000;
+font-weight: bold;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  color: #f4efe6;
+  padding-bottom: 200px;
+}
+
+header nav ul {
+  list-style: none;
+  
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #f4efe6;
+  font-size: 20px;
+}
+
+header nav ul li a:hover {
+  color: #e0bb8f;
+}
+
+
+
+/* style main content sections */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 0px;
+}
+
+main h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+main section {
+  margin-bottom: 40px;
+}
+
+main section ul {
+text-align: center;
+list-style-type: none;
+}
+
+main section li {
+  text-align: center;
+}
+
+main section li h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+main section li p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+main section li img {
+  width: 100%;
+  height: auto;
+}
+
+main section h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+main section a {
+  text-decoration: none;
+  color: #6b3e26;
+  font-size: 24px;
+  border: 2px solid #6b3e26;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+main section a:hover {
+  background-color: #6b3e26;
+  color: #f4efe6;
+}
+
+
+
+
+
+.calendar {
+  background-color: #f9f9f9;
+font-size: 26px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+.month {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+li {
+  padding: 5px;
+}
+
+li:first-child {
+  margin-top: 5px;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+
+
+#comingconcerts li:hover {
+  background-color: #eee;
+
+}
+
+#comingconcerts .month li {
+  
+filter: drop-shadow(0 0 10px orange);
+}
+
+
+
+/* style footer */
+footer {
+  background-color: #b9986f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#contact {
+margin-top: 20px;
+}
+
+.container p {
+margin-top: 20px;
+text-align: center;
+font-size: 34px;
+}
+
+.container h2 {
+margin-top: 20px;
+text-align: center;
+font-size: 50px;
+text-decoration: underline;
+  
+}
+
+.container h3 {
+margin-top: 30px;
+}
+
+form {
+margin-left: 20%;
+}
