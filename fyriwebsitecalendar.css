@@ -263,6 +263,12 @@ li:not(:last-child) {
 filter: drop-shadow(0 0 10px orange);
 }
 
+h3 {
+text-decoration: none;
+text-align: center;
+font-size: 26 px;
+}
+
 
 
 /* style footer */
