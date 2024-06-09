@@ -253,12 +253,12 @@ li:not(:last-child) {
 
 
 
-#comingconcerts li:hover {
+#comingconcerts #glowing li:hover {
   background-color: #eee;
 
 }
 
-#comingconcerts .month li {
+#comingconcerts #glowing .month li {
   
 filter: drop-shadow(0 0 10px orange);
 }
