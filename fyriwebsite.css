@@ -279,8 +279,8 @@ input[type="submit"]:hover {
 
 /* Increase font size for paragraphs in the "About" section */
 #about p {
-  font-size: 64px; /* Adjust this value as needed */
-  line-height: 1.6; /* Optional: Adjust line height for better readability */
+  font-size: 34px; /* Adjust this value as needed */
+  line-height: 1.2; /* Optional: Adjust line height for better readability */
 }
 
 
