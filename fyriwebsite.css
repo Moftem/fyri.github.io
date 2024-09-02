@@ -299,7 +299,7 @@ input[type="submit"]:hover {
 
 /* Increase font size for the member descriptions */
 #members p {
-  font-size: 27px; /* Adjust this value as needed */
+  font-size: 67px; /* Adjust this value as needed */
   text-align: center;
 }
 
