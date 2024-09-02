@@ -2,6 +2,13 @@
 
 @import url('https://www.1001fonts.com/download/font/blackchancery.regular.ttf');
 
+@font-face {
+  font-family: BlackChancery;
+  src: url('https://www.1001fonts.com/download/font/blackchancery.regular.ttf');
+}
+
+
+
 /* reset default margins and paddings */
 * {
   margin: 0;
@@ -11,12 +18,12 @@
 /* set background color and font family */
 body {
   background-color: #ebd9b7;
-  font-family: 'BlackChancery', serif;  
+  font-family: BlackChancery, serif;  
 
 }
 
 main {
-font-family: 'BlackChancery', serif;   
+font-family: BlackChancery, serif;   
 }
 /* style header */
 header {
