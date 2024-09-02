@@ -284,6 +284,27 @@ input[type="submit"]:hover {
 }
 
 
+
+/* Increase font size for the main heading in the "Members" section */
+#members h2 {
+  font-size: 40px; /* Adjust this value as needed */
+  text-align: center;
+}
+
+/* Increase font size for the member names */
+#members h3 {
+  font-size: 28px; /* Adjust this value as needed */
+  text-align: center;
+}
+
+/* Increase font size for the member descriptions */
+#members p {
+  font-size: 22px; /* Adjust this value as needed */
+  text-align: center;
+}
+
+
+
 /* style footer */
 footer {
   background-color: #b9986f;
