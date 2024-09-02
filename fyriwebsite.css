@@ -277,6 +277,13 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
+/* Increase font size for paragraphs in the "About" section */
+#about p {
+  font-size: 64px; /* Adjust this value as needed */
+  line-height: 1.6; /* Optional: Adjust line height for better readability */
+}
+
+
 /* style footer */
 footer {
   background-color: #b9986f;
