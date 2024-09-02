@@ -1,15 +1,4 @@
-@font-face {
-  font-family: 'MyWebFont';
-  src: url('https://www.1001fonts.com/download/font/blackchancery.regular.ttf');
-}
 
-
-/*
-@font-face {
-  font-family: BlackChancery;
-  src: url('https://www.1001fonts.com/download/font/blackchancery.regular.ttf');
-}
-*/
 
 /* reset default margins and paddings */
 * {
@@ -20,12 +9,18 @@
 /* set background color and font family */
 body {
   background-color: #ebd9b7;
-  font-family: 'MyWebFont', Fallback, sans-serif; 
+  font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+
 
 }
 
 main {
-font-family: 'MyWebFont', Fallback, sans-serif;  
+font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
 }
 /* style header */
 header {
