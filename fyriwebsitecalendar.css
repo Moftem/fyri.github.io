@@ -13,12 +13,18 @@
 /* set background color and font family */
 body {
   background-color: #ebd9b7;
-  font-family: 'BlackChancery', serif;  
+       font-family: "Sevillana", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
 }
 
 
 .calendar {
-font-family: 'BlackChancery', serif;  
+         font-family: "Sevillana", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
 }
 
 
