@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
 
-@import url('https://www.1001fonts.com/download/font/blackchancery.regular.ttf');
 
+/*
 @font-face {
   font-family: BlackChancery;
   src: url('https://www.1001fonts.com/download/font/blackchancery.regular.ttf');
 }
-
-
+*/
 
 /* reset default margins and paddings */
 * {
@@ -18,12 +25,12 @@
 /* set background color and font family */
 body {
   background-color: #ebd9b7;
-  font-family: BlackChancery, serif;  
+  font-family: 'MyWebFont', Fallback, sans-serif; 
 
 }
 
 main {
-font-family: BlackChancery, serif;   
+font-family: 'MyWebFont', Fallback, sans-serif;  
 }
 /* style header */
 header {
