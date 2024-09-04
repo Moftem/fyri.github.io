@@ -410,7 +410,7 @@ nav ul li a {
 /* Media query for mobile phones */
 @media (max-width: 480px) {
   body {
-    padding: 10px;
+    padding: 5px;
   }
 
   nav ul li a {
