@@ -316,3 +316,117 @@ footer {
   left: 0;
   width: 100%;
 }
+
+
+/* CHATGPT ADDITION FOR BREAK POINTS */
+
+/* Base styles (apply to all screen sizes) */
+body {
+  margin: 0;
+  font-family: 'Sevillana', cursive;
+}
+
+header, main {
+  padding: 20px;
+}
+
+.center img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+}
+
+/* Section styles */
+#about, #members {
+  margin: 20px 0;
+}
+
+#members ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#members ul li {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.meet-pics {
+  width: 100%;
+  height: auto;
+}
+
+/* Gallery styles */
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery-pics {
+  width: 22%;
+}
+
+.gallery-pics img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query for tablets and mobile devices */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #members ul li {
+    width: 100%;
+  }
+
+  .gallery-pics {
+    width: 48%;
+  }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  .gallery-pics {
+    width: 100%;
+  }
+
+  .center img {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
