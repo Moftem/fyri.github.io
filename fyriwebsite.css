@@ -428,6 +428,24 @@ nav ul li a {
 }
 
 
+/* TEST */
+
+.center {
+  height: auto; /* Adjusted from 94.6% to auto to maintain aspect ratio */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the content vertically */
+}
+
+header img {
+  max-width: 100%;
+  height: auto; /* Ensure the image scales correctly */
+  display: block;
+}
+
+
+
+
 
 
 
