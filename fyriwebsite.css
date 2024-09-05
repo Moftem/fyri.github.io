@@ -452,7 +452,7 @@ header img {
 }
 
 
-
+/*
     .centered-container {
       width: 100%;
       text-align: center;
@@ -460,7 +460,7 @@ header img {
       margin: auto;
       padding: auto;
     }
-
+*/
 .centered-container p {
   text-align: center;
 }
