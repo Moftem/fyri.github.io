@@ -27,7 +27,10 @@ font-family: "Sevillana", cursive;
 /* style header */
 header {
   height: 550px;
-  background: url('https://user-images.githubusercontent.com/58137880/236649265-af65b4ba-4d60-4a78-a333-56ca5f4b8a46.jpg') no-repeat center center;
+                    background: url('https://github.com/user-attachments/assets/9c4ad21b-0a84-457c-aacd-3aaa2d3ef3b3') no-repeat center center;
+                    /*
+                    background: url('https://user-images.githubusercontent.com/58137880/236649265-af65b4ba-4d60-4a78-a333-56ca5f4b8a46.jpg') no-repeat center center;
+                    */
   background-size: cover; /* Cover the entire header area */
 margin: 0;
 
