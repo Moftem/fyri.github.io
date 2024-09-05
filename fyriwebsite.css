@@ -457,6 +457,11 @@ header img {
       width: 100%;
       text-align: center;
       border: 1px solid red; /* For visibility */
+      margin: auto;
+      padding: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center; /* Center the content vertically */
     }
 
 
