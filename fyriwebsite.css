@@ -452,7 +452,7 @@ header img {
 }
 
 
-/*
+/* THESE 2 PARTS ARE FOR MAKING THE TEXT BELOW THE GALLERY CENTERED */
     .centered-container {
       width: 100%;
       text-align: center;
@@ -460,7 +460,7 @@ header img {
       margin: auto;
       padding: auto;
     }
-*/
+
 .centered-container p {
   text-align: center;
 }
