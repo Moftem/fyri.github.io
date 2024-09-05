@@ -405,7 +405,14 @@ nav ul li a {
   .center img {
     max-width: 100%;
   }
+
+   /* style header */
+           header {
+             height: 250px;
+           }
 }
+
+
 
 
 /* TEST */
