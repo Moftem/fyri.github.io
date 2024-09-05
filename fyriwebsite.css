@@ -453,6 +453,14 @@ header img {
 
 
 
+    .centered-container {
+      width: 100%;
+      text-align: center;
+      border: 1px solid red; /* For visibility */
+    }
+
+
+
 
 
 
