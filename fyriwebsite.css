@@ -34,50 +34,8 @@ header {
   background-size: cover; /* Cover the entire header area */
 margin: 0;
 
-
-
-/*
-  background: url(https://user-images.githubusercontent.com/58137880/236649265-af65b4ba-4d60-4a78-a333-56ca5f4b8a46.jpg) no-repeat center center fixed;
-  background-size: cover;
-  background-position: center;
-
 }
 
-  
-.header-background {
-  height: 100%;
-  background: url('https://mortenvestergaardmusic.com/hosted-assets/IMG_9055.JPG') no-repeat center center fixed;
-  background-size: contain;
-  background-position: center;
-}
-
-header img {
-  
-header img {
-  max-width: 100%;
-  height: auto;
-}
-  */
-
-}
-
-
-        /*
-        .center {
-        height: 94.6%;
-        
-        display: flex;
-              justify-content: center;
-        
-        }
-        */
-
-/*
-#underheader 
-{
-border: 10px solid green ;
-}
-*/
 
 /* This is not header content anymore*/
 .header-content {
