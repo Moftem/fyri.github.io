@@ -31,6 +31,8 @@ body {
 /* style header */
 header {
   height: 550px;
+  background: url('https://user-images.githubusercontent.com/58137880/236649265-af65b4ba-4d60-4a78-a333-56ca5f4b8a46.jpg') no-repeat center center;
+  background-size: cover; /* Cover the entire header area */
 margin: 0;
 
 
