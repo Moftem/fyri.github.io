@@ -1,120 +1,140 @@
-/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
+/* reset default margins and paddings */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base font and background */
+/* set background color and font family */
 body {
-  font-family: 'Sevillana', cursive;
   background-color: #ebd9b7;
-  font-size: 16px;
-  color: #000;
+  font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
 }
 
-/* Header styling */
+/* style header */
 header {
-  height: 250px;
+  height: 550px;
+  background: url('https://github.com/user-attachments/assets/9c4ad21b-0a84-457c-aacd-3aaa2d3ef3b3') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+}
+
+.center {
+  height: 94.6%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2fa52;
 }
 
-.center img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Navigation */
+/* header nav bar */
 .header-content {
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: 30px;
+  padding-bottom: 0px;
   background-color: #f2fa52;
-  border-bottom: 3px solid #73AD21;
-  padding: 10px 0;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  border: 3px solid #73AD21;
 }
 
-#fanlist {
-  list-style: none;
-  display: flex;
-  gap: 40px;
+.header-content a:hover {
+  color: #733b0e;
+}
+
+#fanlist li {
+  display: inline;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 50px;
+  color: #000000;
+  filter: drop-shadow(0 0 0.75rem green);
 }
 
 .fan {
   text-decoration: none;
-  color: #000;
+  color: #000000;
   font-weight: bold;
-  font-size: 24px;
 }
 
-.fan:hover {
-  color: #733b0e;
-}
-
-/* Main content */
+/* main content sections */
 main {
   max-width: 1000px;
-  margin: 30px auto;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 0px 0px;
 }
 
-/* Music section */
-#music h2 {
-  text-align: center;
-  font-size: 36px;
+main h2 {
+  font-size: 50px;
   margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
   text-decoration: underline;
 }
 
-#music p {
-  text-align: center;
+main p {
   font-size: 20px;
-  margin-bottom: 30px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-/* Embed containers */
-.music-embeds {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.youtube-link iframe,
-.soundcloud-link iframe {
+/* Video and SoundCloud embeds */
+.video-container, .soundcloud-container {
   width: 100%;
-  height: 315px;
-  display: block;
-  border: 2px solid #00000020;
-  border-radius: 8px;
+  max-width: 1000px;
+  margin: 20px auto;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
 }
 
-/* SoundCloud smaller height */
-.soundcloud-link iframe {
-  height: 166px;
+.video-container iframe, .soundcloud-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
-/* Responsive for tablets */
+/* section spacing */
+main section {
+  margin-bottom: 40px;
+}
+
+/* responsiveness */
 @media (max-width: 768px) {
-  .music-embeds {
-    gap: 15px;
+  #fanlist li {
+    display: block;
+    padding: 10px 0;
   }
 
-  .fan {
-    font-size: 20px;
+  .video-container, .soundcloud-container {
+    padding-bottom: 56.25%;
   }
 }
 
-/* Responsive for phones */
 @media (max-width: 480px) {
-  .music-embeds iframe {
-    height: 200px;
+  body {
+    font-size: 30px;
   }
 
-  .fan {
-    font-size: 18px;
+  .video-container, .soundcloud-container {
+    padding-bottom: 56.25%;
+  }
+
+  header {
+    height: 250px;
   }
 }
