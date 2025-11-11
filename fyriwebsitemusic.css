@@ -1,478 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
-
-@import url('https://www.1001fonts.com/download/font/blackchancery.regular.ttf');
-
-/* reset default margins and paddings */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-/* set background color and font family */
+/* Base font and background */
 body {
+  font-family: 'Sevillana', cursive;
   background-color: #ebd9b7;
-    font-family: "Sevillana", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
+  font-size: 16px;
+  color: #000;
 }
 
-
-.calendar {
-  font-family: "Sevillana", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
-}
-
-
-/* style header */
+/* Header styling */
 header {
-  height: 550px;
-  background: url('https://github.com/user-attachments/assets/9c4ad21b-0a84-457c-aacd-3aaa2d3ef3b3') no-repeat center center;
-  background-size: cover; /* Cover the entire header area */
-  margin: 0;
-}
-
-
-.center {
-height: 94.6%;
-
-display: flex;
-      justify-content: center;
-
-}
-/*
-#underheader 
-{
-border: 10px solid green ;
-}
-*/
-
-/* This is not header content anymore*/
-.header-content {
-  display: flex;
-  justify-content: center;
-    text-decoration: none;
-  color: #000000;
-  font-size: 30px;
-padding-bottom: 0px;
- background-color: #f2fa52; 
- 
-  position: relative;
-top: 0;
-  right: 0;
-  left: 0;
-  width: 100%px;
-  border: 3px solid #73AD21;
-}
-
-.header-content a:hover {
-  color: #733b0e;
-}
-
-
-#about {
-padding-top: 25px;
-}
-
-#fanlist li{
-    display: inline;
-padding-right: 40px;
-padding-left: 40px;
-font-size: 50px;
-color: #000000;
-filter: drop-shadow(0 0 0.75rem green);
-}
-
-.fan {
-text-decoration: none;
-color: #000000;
-font-weight: bold;
-}
-
-header h1 {
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 90px;
-  color: #f4efe6;
-  padding-bottom: 200px;
-}
-
-header nav ul {
-  list-style: none;
-  
-}
-
-header nav ul li {
-  margin-left: 20px;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  color: #f4efe6;
-  font-size: 20px;
-}
-
-header nav ul li a:hover {
-  color: #e0bb8f;
-}
-
-
-
-/* style main content sections */
-main {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0px 0px;
-  
-}
-
-main h2 {
-  font-size: 50px;
-  margin-bottom: 20px;
-  margin-top: 30px;
-  text-align: center;
-text-decoration: underline;
-}
-
-main p {
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-  text-align: justify;
-}
-
-main section {
-  margin-bottom: 40px;
-}
-
-main section ul {
-text-align: center;
-list-style-type: none;
-}
-
-main section li {
-  text-align: center;
-}
-
-main section li h3 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-main section li p {
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-main section li img {
-  width: 100%;
-  height: auto;
-}
-
-main section h3 {
-  font-size: 36px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-main section a {
-  text-decoration: none;
-  color: #6b3e26;
-  font-size: 24px;
-  border: 2px solid #6b3e26;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-}
-
-main section a:hover {
-  background-color: #6b3e26;
-  color: #f4efe6;
-}
-
-
-
-
-
-.calendar {
-  background-color: #f9f9f9;
-font-size: 26px;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-}
-
-.month {
-  margin-bottom: 20px;
-}
-
-h1, h2 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-  text-align: center;
-}
-
-li {
-  padding: 5px;
-}
-
-li:first-child {
-  margin-top: 5px;
-}
-
-li:not(:last-child) {
-  border-bottom: 1px solid #ccc;
-}
-
-
-
-#comingconcerts li:hover {
-  background-color: #eee;
-
-}
-
-#comingconcerts .month li {
-  
-filter: drop-shadow(0 0 10px orange);
-}
-
-
-
-/* style footer */
-footer {
-  background-color: #b9986f;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-#contact {
-margin-top: 20px;
-}
-
-.container p {
-margin-top: 20px;
-text-align: center;
-font-size: 34px;
-}
-
-.container h2 {
-margin-top: 20px;
-text-align: center;
-font-size: 50px;
-text-decoration: underline;
-  
-}
-
-.container h3 {
-margin-top: 30px;
-}
-
-form {
-margin-left: 20%;
-}
-
-#music p {
-text-align: center;
-  font-size: 30px;
-}
-
-
-
-
-/* CHATGPT ADDITION FOR BREAK POINTS */
-
-/* Base styles (apply to all screen sizes) */
-body {
-  margin: 0;
-  font-family: 'Sevillana', cursive;
-}
-
-header, main {
-  padding: 5px;
+  background-color: #f2fa52;
 }
 
 .center img {
-  
-  height: 94.6%;
-  
-  max-width: 1500px;
-}
-
-/* Navigation styles */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.2em;
-}
-
-/* Section styles */
-#about, #members {
-  margin: 20px 0;
-}
-
-#members ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-#members ul li {
-  width: 45%;
-  margin-bottom: 20px;
-}
-
-.meet-pics {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
-/* Gallery styles */
-#gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.gallery-pics {
-  width: 22%;
-}
-
-.gallery-pics img {
-  width: 100%;
-  height: auto;
-}
-
-/* Media query for tablets and mobile devices */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #members ul li {
-    width: 100%;
-  }
-
-  .gallery-pics {
-    width: 22%;
-  }
-}
-
-/* Media query for mobile phones */
-@media (max-width: 480px) {
-  body {
-    padding: 5px;
-  }
-
-  nav ul li a {
-    font-size: 1em;
-  }
-
-  .gallery-pics {
-    width: 22%;
-  }
-
-  .center img {
-    max-width: 100%;
-  }
-
-   /* style header */
-           header {
-             height: 250px;
-           }
-}
-
-
-
-
-/* TEST */
-
-.center {
-  height: auto; /* Adjusted from 94.6% to auto to maintain aspect ratio */
+/* Navigation */
+.header-content {
   display: flex;
   justify-content: center;
-  align-items: center; /* Center the content vertically */
+  background-color: #f2fa52;
+  border-bottom: 3px solid #73AD21;
+  padding: 10px 0;
 }
 
-header img {
-  max-width: 100%;
-  height: auto; /* Ensure the image scales correctly */
-  display: block;
+#fanlist {
+  list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
+.fan {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+}
 
+.fan:hover {
+  color: #733b0e;
+}
 
-
-/* TEST AETHER SHENANIGANS */
-
+/* Main content */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
 
 /* Music section */
-#music {
+#music h2 {
   text-align: center;
-  margin: 40px 0;
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-decoration: underline;
 }
 
 #music p {
-  font-size: 24px;
+  text-align: center;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
-/* Wrapper for each embed */
-.embed-container {
-  position: relative;
+/* Embed containers */
+.music-embeds {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.youtube-link iframe,
+.soundcloud-link iframe {
   width: 100%;
-  max-width: 800px;
-  margin: 20px auto;
-  overflow: hidden;
-  /* 16:9 aspect ratio for YouTube, adjust height for SoundCloud */
-  padding-top: 56.25%; 
+  height: 315px;
+  display: block;
+  border: 2px solid #00000020;
+  border-radius: 8px;
 }
 
-.embed-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+/* SoundCloud smaller height */
+.soundcloud-link iframe {
+  height: 166px;
 }
 
-/* Smaller SoundCloud embed override */
-.embed-container iframe[src*="soundcloud"] {
-  padding-top: 0;   /* SoundCloud doesn't need 16:9 padding */
-  height: 166px;    /* Match SoundCloud player default height */
+/* Responsive for tablets */
+@media (max-width: 768px) {
+  .music-embeds {
+    gap: 15px;
+  }
+
+  .fan {
+    font-size: 20px;
+  }
 }
 
+/* Responsive for phones */
+@media (max-width: 480px) {
+  .music-embeds iframe {
+    height: 200px;
+  }
 
-
-
+  .fan {
+    font-size: 18px;
+  }
+}
